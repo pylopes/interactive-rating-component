@@ -10,7 +10,7 @@ This is a solution to the [Design preview for the Interactive rating component c
 
 ### Links
 
-- Live Site URL: [Interactive rating component]()
+- Live Site URL: [Interactive rating component](https://pylopes.github.io/interactive-rating-component/)
 
 ### Built with
 
