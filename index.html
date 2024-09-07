@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <title>Interactive Rating Component</title>
+</head>
+<body>
+    <main>
+        <div class="feedback-question">
+            <img src="assets/images/icon-star.svg" alt="" id="icon-star">
+            <h1>How did we do?</h1>
+            <p>Please let us know how we did with your support request. All feedback is apreciated to help us improve our offering!</p>
+            <div class="feedback">
+                    <button class="btn-rating">1</button>
+                    <button class="btn-rating">2</button>
+                    <button class="btn-rating">3</button>
+                    <button class="btn-rating">4</button>
+                    <button class="btn-rating">5</button>
+            </div>
+            <button class="btn-submit">SUBMIT</button>   
+        </div>
+        <div class="feedback-send display-hidden">
+            <img src="assets/images/illustration-thank-you.svg" alt="" id="img-thankyou">
+            <p id="msg-rating-thank">You selected <span></span> out of 5</p>
+            <h2>Thank you!</h2>
+            <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

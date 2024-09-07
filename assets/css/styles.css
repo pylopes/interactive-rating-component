@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --bg-color-primary: hsl(216, 12%, 8%);
+    --bg-color-secondary: #212832;
+    --bg-color-icon: #282e37;
+    --color-white: hsl(0, 0%, 100%);
+    --color-gray: hsl(217, 12%, 63%);
+    --color-black: #000;
+    --color-orange: hsl(25, 97%, 53%);
+    --font-family: "Overpass", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color-primary);
+}
+
+main {
+    font-family: var(--font-family);
+}
+
+#icon-star {
+    background-color: var(--bg-color-icon);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: var(--color-white);
+    margin: 15px 0;
+    font-size: 2rem;
+}
+
+p {
+    color: var(--color-gray);
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+
+.feedback-question {
+    max-width: 300px;
+    margin: auto;
+    background-color: var(--bg-color-secondary);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.feedback {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-rating {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	border: none;
+	background-color: var(--bg-color-primary);
+	color: var(--color-gray);
+	font-weight: 700;
+    font-size: 1.3rem;
+	margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.btn-rating:hover {
+    background-color: var(--color-orange);
+    color: var(--color-black);
+}
+
+.btn-rating.selected {
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: var(--color-orange);
+    padding: 10px 0;
+    border-radius: 20px;
+    border: 0;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: var(--font-family);
+    transition: background-color 0.5s ease;
+}
+
+.btn-submit:hover {
+    background-color: var(--color-white);
+    cursor: pointer;
+}
+
+.feedback-send {
+    max-width: 300px;
+    margin: auto;
+    background-color: var(--bg-color-secondary);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#img-thankyou {
+    margin: 15px 0;
+}
+
+#msg-rating-thank {
+    background-color: var(--bg-color-icon);
+    padding: 10px;
+    color: var(--color-orange);
+    border-radius: 25px;
+    display: inline-block;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: var(--color-white);
+    font-size: 2rem;
+}
+
+.display-hidden {
+    display: none;
+}
